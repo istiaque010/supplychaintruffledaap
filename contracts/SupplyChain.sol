@@ -107,7 +107,7 @@ contract SypplyChain{
 
     }
  
-    function createOrder(string memory _title, string memory _description, address _deliveryCompany, address _customer) public {
+    function createOrder(string memory _title, string memory _description, address _deliveryCompany, address _customer) public returns(uint256){
          
          Order memory order = Order ({
  

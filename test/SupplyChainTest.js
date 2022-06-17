@@ -1,1 +1,0 @@
-const SupplyChain = artifacts.require('SupplyChain');
